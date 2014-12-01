@@ -1,0 +1,7 @@
+<manifest>
+    <remote name="github" fetch="git@github.com:DeonPoncini" />
+    <default revision="refs/heads/master" remote="github" sync-j="4" />
+    <project name="libexupstream1" remote="github" path="libexupstream1" />
+    <project name="libexupstream2" remote="github" path="libexupstream2" />
+    <project name="exdownstream" remote="github" path="exdownstream" />
+</manifest>
